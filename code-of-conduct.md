@@ -1,124 +1,255 @@
-# A Code of Conduct for Open Source Projects
+# Contributor Covenant Code of Conduct
 
-Open Source has always been a foundation of the Internet, and with the advent of social open source networks this is more true than ever. But free, libre, and open source projects suffer from a startling lack of diversity, with dramatically low representation by women, people of color, and other marginalized populations.
 
-Often it is the unintentional assumptions and actions of project maintainers and participants that make open source projects unwelcoming (or even hostile) to marginalized people: making assumptions about gender or race, reinforcing stereotypes, using sexualized or otherwise inappropriate language, or demonstrating a lack of regard for the safety and well-being of vulnerable people.
 
-One way to begin addressing this problem is to be overt in our openness, welcoming all people to contribute, and pledging in return to value them as whole human beings and to foster an atmosphere of kindness, cooperation, and understanding.
-Adopting the Contributor Covenant can be one way to express and codify these values and signal your intention to make your open source community welcoming, diverse, and inclusive.
+## Our Pledge
 
-# Contributor Covenant v2.0
-You can view and download the latest version of the Contributor Covenant here:
-- English (Markdown version)
-- English (HTML version)
-- English (text version)
 
-For translations of the Contributor Covenant, please see our translations page.
 
-The Contributor Covenant uses semantic versioning for revisions so all URLs are permanent. Previous versions are available here: 1.0, 1.1, 1.2, 1.3, and 1.4. 
+We as members, contributors, and leaders pledge to make participation in our
 
-# Using the Contributor Covenant
+community a harassment-free experience for everyone, regardless of age, body
 
-We recommend that you add the Markdown or text version of the Contributor Covenant to your source code repository at the root level.
+size, visible or invisible disability, ethnicity, sex characteristics, gender
 
-Thanks to Simon Vansintjan there is an automated way to add Contributor Covenant to your project. Assuming that you have Node.js installed, simply run the following two commands from your project folder:
+identity and expression, level of experience, education, socio-economic status,
 
-npm install -g covgen covgen TLASZLOL@GMAIL.COM
+nationality, personal appearance, race, religion, or sexual identity
 
-If you have npm 5.x installed you can run npx covgen TLASZLOL@GMAIL.COM instead of installing globally.
-For subsequent projects, simply repeat the second command.
+and orientation.
 
-You may want to add language similar to this to introduce your code of conduct:
-Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
 
-You may also use the permalinks given above to reference from your project home page.
-Important! You must add a contact method to the placeholder in the document so that people know how to report violations.
 
-If you are using a README file in your source code repository, you may want to add a badge like this one  using the code below.
+We pledge to act and interact in ways that contribute to an open, welcoming,
 
-For a markdown README, add the below code where you would like to 
-the badge:
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md) 
+diverse, inclusive, and healthy community.
 
-For a reStructuredText README, place |Contributor Covenant| where you would like the badge and add the below to your README file:
 
-.. |Contributor Covenant| image:: https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg :target: code_of_conduct.md 
-The Contributor Covenant is released under the Creative Commons Attribution 4.0 International Public License, which requires that attribution be included.
 
-# Enforcing the Contributor Covenant
+## Our Standards
 
-Morality cannot be legislated, but behavior can be regulated.
-Dr. Martin Luther King, Jr.
-Do not simply add the Contributor Covenant to your project and assume that any problems with civility, harassment, or discrimination will be solved. As a project maintainer you must be committed to enforcing the code of conduct. A code of conduct without enforcement sends a false signal that your project is welcoming and inclusive, and can create a dangerous situation for marginalized people who participate. Adding the Contributor Covenant to a project places responsibility on the project team that must not be taken lightly.
-Before adopting the Contributor Covenant take the time to discuss and decide how to deal with problems as they emerge. Document the policy and procedure for enforcement, and add it to your README or in another visible, appropriate place. Consider if your project team has the willingness and maturity to follow through on your enforcement procedures.
-Some resources useful for thinking about enforcement:
-Community Safety and Accountability
-Enforcing Your Code of Conduct: Effective Incident Response
-Django Code of Conduct Enforcement Manual
-jQuery Foundation Code of Conduct Enforcement Manual
-How Mozilla is Making Code of Conduct Enforcement Real - and Scaling It
-Adopters of the Contributor Covenant
-This code of conduct has already been adopted by over 200,000 open source projects. Here are just a few major projects and organizations using the Contributor Covenant.
-Atom 
-AngularJS 
-Babel 
-Bootstrap 
-Bundler 
-chef-rvm 
-Cloud Native Compute Foundation 
-CocoaPods 
-code.gov 
-Creative Commons 
-Cucumber 
-Crystal 
-curl 
-Diaspora 
-Discourse 
-Eclipse 
-Electron 
-Elixir 
-Exercism.io 
-Gatsby 
-git 
-GitLab 
-Golang 
-Google 
-Homebrew-Cask 
-Intel OTC 
-Jekyll 
-Jenkins 
-JRuby 
-Hanami 
-Kong 
-Kubernetes 
-Linux 
-Metasploit Framework 
-Mono 
-Mozilla Webmaker 
-.NET Foundation 
-Node.js 
-Rails 
-rbenv 
-React 
-ROM 
-RSpec 
-ruby-community 
-rubygems 
-RubyGems.org 
-RVM 
-Salesforce OSS 
-Shoes 
-Spring 
-Swift 
-Symfony 
-Target 
-TensorFlow 
-Travis CI 
-Twilio 
-Visual F# 
-Vue.js 
-Yarn 
-See this page for more.
-To add your project to the list, submit a pull request.
-How to Contribute
-The Contributor Covenant is a living document, and has been open sourced. Contributions in the form of issues and pull requests are welcomed and encouraged.
+
+
+Examples of behavior that contributes to a positive environment for our
+
+community include:
+
+
+
+* Demonstrating empathy and kindness toward other people
+
+* Being respectful of differing opinions, viewpoints, and experiences
+
+* Giving and gracefully accepting constructive feedback
+
+* Accepting responsibility and apologizing to those affected by our mistakes,
+
+  and learning from the experience
+
+* Focusing on what is best not just for us as individuals, but for the
+
+  overall community
+
+
+
+Examples of unacceptable behavior include:
+
+
+
+* The use of sexualized language or imagery, and sexual attention or
+
+  advances of any kind
+
+* Trolling, insulting or derogatory comments, and personal or political attacks
+
+* Public or private harassment
+
+* Publishing others' private information, such as a physical or email
+
+  address, without their explicit permission
+
+* Other conduct which could reasonably be considered inappropriate in a
+
+  professional setting
+
+
+
+## Enforcement Responsibilities
+
+
+
+Community leaders are responsible for clarifying and enforcing our standards of
+
+acceptable behavior and will take appropriate and fair corrective action in
+
+response to any behavior that they deem inappropriate, threatening, offensive,
+
+or harmful.
+
+
+
+Community leaders have the right and responsibility to remove, edit, or reject
+
+comments, commits, code, wiki edits, issues, and other contributions that are
+
+not aligned to this Code of Conduct, and will communicate reasons for moderation
+
+decisions when appropriate.
+
+
+
+## Scope
+
+
+
+This Code of Conduct applies within all community spaces, and also applies when
+
+an individual is officially representing the community in public spaces.
+
+Examples of representing our community include using an official e-mail address,
+
+posting via an official social media account, or acting as an appointed
+
+representative at an online or offline event.
+
+
+
+## Enforcement
+
+
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+
+reported to the community leaders responsible for enforcement at
+
+TLASZLOL@GMAIL.COM.
+
+All complaints will be reviewed and investigated promptly and fairly.
+
+
+
+All community leaders are obligated to respect the privacy and security of the
+
+reporter of any incident.
+
+
+
+## Enforcement Guidelines
+
+
+
+Community leaders will follow these Community Impact Guidelines in determining
+
+the consequences for any action they deem in violation of this Code of Conduct:
+
+
+
+### 1. Correction
+
+
+
+**Community Impact**: Use of inappropriate language or other behavior deemed
+
+unprofessional or unwelcome in the community.
+
+
+
+**Consequence**: A private, written warning from community leaders, providing
+
+clarity around the nature of the violation and an explanation of why the
+
+behavior was inappropriate. A public apology may be requested.
+
+
+
+### 2. Warning
+
+
+
+**Community Impact**: A violation through a single incident or series
+
+of actions.
+
+
+
+**Consequence**: A warning with consequences for continued behavior. No
+
+interaction with the people involved, including unsolicited interaction with
+
+those enforcing the Code of Conduct, for a specified period of time. This
+
+includes avoiding interactions in community spaces as well as external channels
+
+like social media. Violating these terms may lead to a temporary or
+
+permanent ban.
+
+
+
+### 3. Temporary Ban
+
+
+
+**Community Impact**: A serious violation of community standards, including
+
+sustained inappropriate behavior.
+
+
+
+**Consequence**: A temporary ban from any sort of interaction or public
+
+communication with the community for a specified period of time. No public or
+
+private interaction with the people involved, including unsolicited interaction
+
+with those enforcing the Code of Conduct, is allowed during this period.
+
+Violating these terms may lead to a permanent ban.
+
+
+
+### 4. Permanent Ban
+
+
+
+**Community Impact**: Demonstrating a pattern of violation of community
+
+standards, including sustained inappropriate behavior,  harassment of an
+
+individual, or aggression toward or disparagement of classes of individuals.
+
+
+
+**Consequence**: A permanent ban from any sort of public interaction within
+
+the community.
+
+
+
+## Attribution
+
+
+
+This Code of Conduct is adapted from the [Contributor Covenant][homepage],
+
+version 2.0, available at
+
+https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+
+
+
+Community Impact Guidelines were inspired by [Mozilla's code of conduct
+
+enforcement ladder](https://github.com/mozilla/diversity).
+
+
+
+[homepage]: https://www.contributor-covenant.org
+
+
+
+For answers to common questions about this code of conduct, see the FAQ at
+
+https://www.contributor-covenant.org/faq. Translations are available at
+
+https://www.contributor-covenant.org/translations.
